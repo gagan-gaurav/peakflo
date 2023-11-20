@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "commonjs",
+		"rootDir": "src",
+   		"outDir": "build",
+		"forceConsistentCasingInFileNames": true,
+	  "strict": true,
+	  "esModuleInterop": true
+	},
+	"include": ["src/**/*.ts"],
+	"exclude": ["node_modules"]
+}
+  

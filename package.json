@@ -1,0 +1,22 @@
+{
+  "name": "peakflo",
+  "version": "1.0.0",
+  "description": "Peakflo assignment",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gagan Gaurav",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^6.3.5",
+    "csv-parser": "^3.0.0",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.2",
+    "typescript": "^5.2.2"
+  }
+}
