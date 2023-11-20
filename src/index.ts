@@ -19,7 +19,7 @@ async function processInputData() {
 		endTime: new Date(DateTime),
 	})
 	);
-	console.log(`Total Fare : ${fareService.calculateTotalFare(userTripData)}`)
+	console.log(`Total Fare is $${fareService.calculateTotalFare(userTripData)}`)
 }
 
 // Call the async function

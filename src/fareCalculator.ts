@@ -13,7 +13,7 @@ export default class FareService {
 		const fare = this.calculateFare(trip);
 		const {source, destination, endTime } = trip;
 		console.log(
-		`Total Fare for Passenger on ${endTime.toLocaleString()} from ${source} to ${destination} is $${fare}.`
+		`Fare for Passenger on ${endTime.toLocaleString()} from ${source} to ${destination} is $${fare}.`
 		);
 		totalFare += fare;
 	}
